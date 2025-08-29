@@ -1,0 +1,14 @@
+[Unit]
+Description=Eco Back Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/django_user/eco_back
+ExecStart=/home/django_user/eco_back/eco_back
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

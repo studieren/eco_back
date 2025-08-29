@@ -1,0 +1,52 @@
+# 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Go 编译过程中产生的中间文件
+*.o
+*.a
+*.test
+
+# Go 模块相关
+go.sum
+/vendor/
+
+# 日志文件
+logs/
+*.log
+
+# 环境变量配置文件（通常包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 编辑器/IDE 相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 临时文件目录
+tmp/
+temp/
+
+# 项目构建相关目录
+dist/
+build/
+
+# 测试相关
+coverage.out
+coverage/
+
+# 自定义二进制输出目录
+bin/

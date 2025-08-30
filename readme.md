@@ -1,5 +1,7 @@
 # 电商网站后台接口测试 使用说明文档
 
+https://github.com/studieren/eco_back.git
+
 ## 概述
 
 电商网站后台接口测试
